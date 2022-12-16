@@ -1,9 +1,8 @@
-# python-kodtoro_egyszeru - Folyamatleírás:
-
+# python-kodtoro_egyszeru - Folyamatleírás
 
 ## 1. játékszabályok rögzítése, a program feladatainak specifikálása
 
-## 2. fő részekre bontás:
+## 2. fő részekre bontás
 
 - inicializálás
 - játék
@@ -22,7 +21,7 @@
 
 - ismétlés, amíg a játékos kitalálja a feladványt vagy a maximális lépésszámot meghaladja.
 
-#### 2.2.1 a játék ciklusa:
+#### 2.2.1 a játék ciklusa
 
 - tippelés
 - tipp validálása (érvényes-e?)
@@ -34,13 +33,14 @@
 
 - adatbekérés a játékostól
 
-##### 2.2.1.2  (formai) ellenőrzés:
+##### 2.2.1.2  (formai) ellenőrzés
 
 - négy karakter hosszú-e
 - csak a megadott karaktereket tartalmazza-e
 - minden karaktert csak egyszer tartalmaz-e
 
 ##### 2.2.1.3 tipp kiértékelése
+
 - érvényes tipp esetén (ha az előző pont igaz értékkel tér vissza) ciklussal végigmegyünk a tipp karakterein
 - ellenőrizzük, hogy az tipp aktuálisan vizsgált karaktere (akt. karakter) egyezik-e a feladvány ugyanazon pozíciójában található színnel, Ha igen: +1 pozíció találat egyébként megtalálható-e a feladvány karakterei között az akt. karakter? Ha igen: +1 szín találat
 
