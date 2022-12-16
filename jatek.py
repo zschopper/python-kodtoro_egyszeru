@@ -9,10 +9,13 @@ N - Narancs,
 F - Fehér
 '''
 
+# Ez a függvény választ négy, különböző színt a színkódok közül.
 def elrejt(rejtett):
     szinek = 'KSZPNF'
+    # a ciklus addig fut, míg 4 eleme van a listának
     while len(rejtett) < 4:
         szin = szinek[int(random.random() * 6)]
+        # csak akkor adjuk hozzá a listához az új elemet, ha az még nem szerepel rajta.
         if szin not in rejtett:
             rejtett.append(szin)
 
