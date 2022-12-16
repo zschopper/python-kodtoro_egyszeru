@@ -17,10 +17,9 @@ Folyamatleírás:
         Addig generálunk véletlenszerűen színeket, amíg a listán 4 különböző szín lesz.
         Tehát ami egyszer már szerepel rajta, nem adjuk hozzá mégegyszer.
 2.2 játék
-   tippelés, amíg a játékos kitalálja a feladványt vagy a maximális lépésszámot meghaladja.
+   - ismétlés, amíg a játékos kitalálja a feladványt vagy a maximális lépésszámot meghaladja.
 
-   2.2.1
-     ciklusban:
+   2.2.1 a játék ciklusa:
         - tippelés
         - tipp validálása (érvényes-e?)
         - tipp kiértékelése (hány találat volt, ami nem volt jó helyen,
